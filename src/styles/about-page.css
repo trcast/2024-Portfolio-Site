@@ -11,8 +11,12 @@
 }
 
 .bio-container {
-  max-width: 50%;
   margin-bottom: 32px;
+  max-width: 50%;
+}
+
+.bio-container p {
+  font-size: 18px;
 }
 
 .btn-container {

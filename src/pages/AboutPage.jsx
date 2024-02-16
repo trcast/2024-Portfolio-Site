@@ -15,6 +15,7 @@ import Blender from "/assets/brand/tools/blender.svg";
 import Premiere from "/assets/brand/tools/premiere.svg";
 import VScode from "/assets/brand/tools/vscode.svg";
 import Resume from "/assets/work/resume.pdf";
+import Profile from "/assets/brand/social/profile.png";
 
 const AboutPage = () => {
   useEffect(() => {
