@@ -1,0 +1,65 @@
+@import url("../App.css");
+@import url("./homepage.css");
+
+.service-section-container {
+  max-width: 50%;
+  padding: 16px;
+}
+
+.service-comp-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.service-comp-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 0.5px solid var(--darker-gray);
+  padding: 32px 0px;
+  margin-bottom: 16px;
+}
+
+.rotate-in {
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.rotate-out {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.service-comp-descript {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-down {
+  max-height: 1000px;
+  transition: all 0.4s ease-in-out;
+}
+
+.service-btn-container {
+  margin-top: 32px;
+}
+
+.service-page-container {
+  margin-top: 128px;
+}
+
+@media only screen and (max-width: 767px) {
+  .service-section-container {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .service-section-container {
+    max-width: none;
+    width: 100%;
+  }
+}

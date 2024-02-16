@@ -1,0 +1,10 @@
+@import url("../App.css");
+@import url("./homepage.css");
+
+.work-page-container-top {
+  margin-top: 128px;
+}
+
+.work-page-container-bottom {
+  margin-top: 64px;
+}
