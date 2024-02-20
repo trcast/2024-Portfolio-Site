@@ -22,13 +22,6 @@ const ProjectPage = () => {
     return <div>Project not found</div>;
   }
 
-  // const paragraphs = project.brief.split("\n\n");
-  // const briefParagraphs = paragraphs.map((paragraph, index) => (
-  //   <p key={index} style={{ marginBottom: "1em" }}>
-  //     {paragraph}
-  //   </p>
-  // ));
-
   let briefParagraphs = [];
 
   if (project.brief) {

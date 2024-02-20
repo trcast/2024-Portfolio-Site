@@ -20,8 +20,8 @@ const HomePage = () => {
       <section id="heroSection">
         <div className="container hero-container">
           <div className="hero-top">
-            <h3 className="white">Pixel-Perfect Design</h3>
-            <h3 className="white">Code Crafted with Care</h3>
+            <h3 className="white">Design Excellence</h3>
+            <h3 className="white">Meets Strategic Vision</h3>
           </div>
           <div className="hero-bottom">
             <div className="hero-contact">
@@ -32,8 +32,8 @@ const HomePage = () => {
               <p className="white">
                 I am a passionate artist dedicated to multidisciplinary design.
                 Equipped with a diverse skill set and technical expertise, I
-                strive to create engaging digital experiences that transcend
-                expectations.
+                strive to create engaging digital experiences and visuals that
+                transcend expectations.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const HomePage = () => {
       <section id="worksSection">
         <div className="container">
           <SectionHeader title="Selected Works" reverse={false} />
-          <WorkPreviewSection projectType="web" />
+          <WorkPreviewSection projectType="graphic" />
           <Link to="/works">
             <ButtonLg title="View All Work" />
           </Link>

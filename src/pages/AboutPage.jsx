@@ -39,24 +39,27 @@ const AboutPage = () => {
                 an unwavering passion for the diverse realms of art and design.
                 I staunchly believe in the power of multidisciplinary expertise,
                 embodying a commitment to continually broaden my skills across
-                web design, development, graphic design, and motion graphics.
+                web design, graphic design, and motion graphics.
                 {<br />}
-                {<br />} In the realm of continuous learning, I am currently
-                undertaking the Front-End Web Developer course on Scrimba, with
-                an ambitious goal to complete it before the close of 2024. This
-                endeavor epitomizes my dedication to staying at the forefront of
-                technological advancements and mastering the intricacies of
-                modern web development. {<br />}
+                {<br />} My experience includes branding design, logo design,
+                and motion graphics, I have honed my skills as a versatile and
+                proficient designer. My expertise extends to animation, where I
+                am adept at crafting compelling narratives through a spectrum of
+                techniques, from intricate motion graphics to hand-drawn
+                animations. Recently, I've embarked on a journey into the realm
+                of web design, seeking to elevate my design capabilities to new
+                heights. This expansion of my skill set reflects my commitment
+                to continuous growth and innovation within the field of design.
+                {<br />}
                 {<br />}Approaching challenges, be they visual or technical, is
                 an integral part of my creative process. I tackle each problem
                 with the conviction that dedicated work and thorough research
                 can unlock solutions. This mindset guides my artistic endeavors,
                 propelling me to explore diverse design disciplines and
                 technical domains. By seamlessly integrating graphic design and
-                motion graphics with my evolving web design and development
-                skills, I aspire to craft holistic and captivating digital
-                experiences that resonate with audiences across various
-                platforms.
+                motion graphics with my evolving web design skills, I aspire to
+                craft holistic and captivating digital experiences that resonate
+                with audiences across various platforms.
               </p>
             </div>
             <div className="btn-container">
@@ -101,8 +104,8 @@ const AboutPage = () => {
                 <h6 className="semibold white">Testing & Execution</h6>
               </div>
               <p className="dark-gray">
-                This includes code testing and design feedback, to ensure
-                seamless performance and execution of the client’s vision.
+                This includes design and animation revisions based on client's
+                feedback. To ensure seamless execution of the client’s vision.
               </p>
             </div>
           </div>
@@ -117,10 +120,10 @@ const AboutPage = () => {
                 <img src={Figma} alt="" />
                 <h6>Figma</h6>
               </div>
-              <div className="tool-chip-lg">
+              {/* <div className="tool-chip-lg">
                 <img src={ReactImg} alt="" />
                 <h6>React</h6>
-              </div>
+              </div> */}
               <div className="tool-chip-lg">
                 <img src={AfterEffects} alt="" />
                 <h6>After Effects</h6>
@@ -143,10 +146,10 @@ const AboutPage = () => {
                 <img src={Premiere} alt="" />
                 <h6>Premiere</h6>
               </div>
-              <div className="tool-chip-lg">
+              {/* <div className="tool-chip-lg">
                 <img src={VScode} alt="" />
                 <h6>VS Code</h6>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

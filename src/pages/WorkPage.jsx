@@ -11,19 +11,16 @@ const WorkPage = () => {
   return (
     <>
       <section>
-        <div className="container work-page-container-top" id="webSection">
-          <SectionHeader title="Web Design & Development" reverse={false} />
-          <WorkPreviewSection projectType="web" />
-        </div>
-        <div
-          className="container work-page-container-bottom"
-          id="graphicSection"
-        >
+        <div className="container work-page-container-top" id="graphicSection">
           <SectionHeader
             title="Graphic Design & Motion Graphics"
-            reverse={true}
+            reverse={false}
           />
           <WorkPreviewSection projectType="graphic" />
+        </div>
+        <div className="container work-page-container-bottom" id="webSection">
+          <SectionHeader title="Web Design & Development" reverse={true} />
+          <WorkPreviewSection projectType="web" />
         </div>
       </section>
     </>

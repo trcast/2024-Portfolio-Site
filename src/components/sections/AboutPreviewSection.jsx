@@ -31,18 +31,14 @@ const AboutPreviewSection = () => {
             well-rounded artist to be one who excels in various disciplines. My
             dedication to this philosophy is reflected in my commitment to
             continually expand my skills across the realms of web design,
-            development, graphic design, and motion graphics.
+            graphic design, and motion graphics.
           </p>
         </div>
         <div className="about-tools-container">
-          <div className="tool-chip ">
-            <img src={Figma} alt="" />
-            <p>Figma</p>
-          </div>
-          <div className="tool-chip">
+          {/* <div className="tool-chip">
             <img src={ReactImg} alt="" />
             <p>React</p>
-          </div>
+          </div> */}
           <div className="tool-chip">
             <img src={AfterEffects} alt="" />
             <p>After Effects</p>
@@ -50,6 +46,10 @@ const AboutPreviewSection = () => {
           <div className="tool-chip">
             <img src={Illustrator} alt="" />
             <p>Illustrator</p>
+          </div>
+          <div className="tool-chip ">
+            <img src={Figma} alt="" />
+            <p>Figma</p>
           </div>
           <div className="tool-chip">
             <img src={Photoshop} alt="" />
